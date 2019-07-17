@@ -1,0 +1,32 @@
+/* HEADER DO SITE*/ 
+	
+.header_smiles {
+	width: 100%px;
+	height: 80px;
+	background: #ff5a00;
+	padding:0 20px;
+}
+
+.header_conteudo li {
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.smiles_logo {
+	float: left;
+	position: relative;
+	top:8px;
+}
+
+.space_box {
+	width: 420px;
+}
+
+.help_box {
+	height:50px;
+	width: 400px;
+	background: #ff5a00;
+	position: relative;
+	border: 1px solid #fff;
+	color:#000;
+}
