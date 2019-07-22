@@ -2,6 +2,25 @@
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	
+	/* QUALIDADE HOME */
+	.qualidade:after {
+	right:66px;
+}
+	.qualidade_lista li {
+	text-align: center;
+	padding: 0 10px;
+	
+}
+	/* FOOTER */
+	.footer_redes ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 6px;
+}
+	.footer_redes ul li a img{
+	width: 26px;
+	height: 26px;
+}
 }
 
 /* ESTILO PARA SMARTPHONE */
@@ -32,6 +51,11 @@
 		display: block;
 		float:left;
 	}
+	
+	.header_menu ul li a.menu_ativo {
+	color:#fff;
+	border-color: #fff;
+	}
 	.header_menu ul li a:hover {
 		border-color: #fff;
 	}
@@ -39,8 +63,35 @@
 	/* INTRODUÇÃO */
 	.introducao {
 	margin-top: 0px;
-	padding-top: 20px;
+	padding-top: 40px;
 	background: url("../img/bg-mobile.jpg") no-repeat center;
 	background-size: cover;
 	}
-}
+	.introducao h1 {
+	font-size:36px;
+	}
+	
+	/* INTRODUÇÃO INTERNA*/
+	.introducao-interna {
+	margin-top: 0px;
+	}
+	
+	/* CALL */
+	.call {
+	padding-top: 10px;
+	}
+	.qualidade:after {
+	display:none;
+	}
+	
+	/* SOBRE */
+	.missao_sobre p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px
+	}
+	
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+	}
