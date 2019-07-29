@@ -35,14 +35,31 @@
 			<p>Coonheça os projetos que amamos mostrar</p>
 		</div>
 	</section>
-	
+
 	<section class="container">
-		<blockquote class="quote_cliente">
-			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-			<cite>Barbara Moss</cite>
-		</blockquote>
+		<ul class="rslides">
+			<li>
+				<blockquote class="quote_cliente">
+					<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+					<cite>Barbara Moss</cite>
+				</blockquote>
+			</li>
+			<li>
+				<blockquote class="quote_cliente">
+					<p>"Do mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+					<cite>Bernardo</cite>
+				</blockquote>
+			</li>
+			<li>
+				<blockquote class="quote_cliente">
+					<p>"No mundo recebte, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+					<cite>Jhony Rato</cite>
+				</blockquote>
+			</li>
+		</ul>
+
 	</section>
-	
+
 	<section class="portfolio">
 		<div class="container">
 			<ul class="portfolio_lista">
@@ -52,7 +69,7 @@
 			</ul>
 		</div>
 	</section>
-	
+
 	<section class="quebra">
 		<blockquote class="quote container">
 			<p>"O verdadeiro segredo da felicidade está em ter u genuíno interesse por todos os detalhes da vida cotidiana"
@@ -88,14 +105,22 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="copy">
 			<div class="container">
 				<p class="grid-16">Bikcraft 2015 - Alguns direitos reservados.</p>
 			</div>
 		</div>
 	</footer>
+	<!-- JAVA SCRIPT -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<!-- JAVA SCRIPT -->
 
-</body>
-
-</html>
+	<script>
+		$(function() {
+			$(".rslides").responsiveSlides();
+		});
+	</script>
+</body></html>
