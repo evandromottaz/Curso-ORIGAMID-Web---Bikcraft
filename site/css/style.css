@@ -15,6 +15,27 @@ img {
 	max-width: 100%;
 }
 
+.formphp label.nao-aparece,
+.formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span,
+#form-send span {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
 .cta {
 	border: 3px solid #fec63e;
 	padding: 10px 30px;
@@ -32,7 +53,7 @@ img {
 	border-color: #fff;
 }
 
-.cta-preto:hover {
+.cta.cta-preto:hover {
 	color: #000;
 	border-color: #000;
 }
@@ -147,7 +168,8 @@ img {
 	font-style: italic;
 }
 
-.quote p:before, .quote p:after {
+.quote p:before,
+.quote p:after {
 	/* BEFORE vai inserir uma linha antes do p e o AFTER após o p */
 	content: "";
 	display: block;
@@ -409,47 +431,52 @@ img {
 
 /* ANIMAÇÕES */
 
-.js .introducao h1,  .js .introducao blockquote, .js .cta, .js .animar, 
-.js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
+.js .introducao h1,
+.js .introducao blockquote,
+.js .introducao cta,
+.js .animar,
+.js .animar-interno,
+.js .introducao-interna h1,
+.js .introducao-interna p {
 	opacity: 0;
 }
 
 .animated {
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -20px, 0);
-            transform: translate3d(0, -20px, 0);
-  }
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -20px, 0);
+		transform: translate3d(0, -20px, 0);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
 
 @keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -20px, 0);
-            transform: translate3d(0, -20px, 0);
-  }
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -20px, 0);
+		transform: translate3d(0, -20px, 0);
+	}
 
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
 }
 
 .fadeInDown {
-  -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
 }
