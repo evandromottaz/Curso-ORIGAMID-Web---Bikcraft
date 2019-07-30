@@ -409,8 +409,8 @@ img {
 
 /* ANIMAÇÕES */
 
-.introducao h1, .introducao blockquote, .cta, .animar, 
-.animar-interno, .introducao-interna h1, .introducao-interna p {
+.js .introducao h1,  .js .introducao blockquote, .js .cta, .js .animar, 
+.js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
 	opacity: 0;
 }
 
