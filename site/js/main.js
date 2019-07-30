@@ -12,6 +12,7 @@ $(".rslides_portfolio").responsiveSlides({
 });
 
 Visibility.onVisible(function () {
+	/* Animações da Home */
 	setTimeout(function () {
 		$(".introducao h1").addClass("animated fadeInDown");
 	}, 400);
@@ -24,7 +25,8 @@ Visibility.onVisible(function () {
 	setTimeout(function () {
 		$(".animar").addClass("animated fadeInDown");
 	}, 1600);
-
+	
+	/* Animações das páginas internas  */
 	setTimeout(function () {
 		$(".introducao-interna h1").addClass("animated fadeInDown");
 	}, 400);

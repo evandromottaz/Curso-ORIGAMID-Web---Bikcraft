@@ -409,7 +409,8 @@ img {
 
 /* ANIMAÇÕES */
 
-.introducao h1, .introducao blockquote, .cta, .animar, animar-interno {
+.introducao h1, .introducao blockquote, .cta, .animar, 
+.animar-interno, .introducao-interna h1, .introducao-interna p {
 	opacity: 0;
 }
 
